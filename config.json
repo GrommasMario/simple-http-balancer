@@ -1,0 +1,19 @@
+{
+  "loadBalancers": [
+    {
+      "port": 3000,
+      "instances": [
+        {
+          "host": "localhost",
+          "port": 4000,
+          "checkUrl": "api"
+        },
+        {
+          "host": "localhost",
+          "port": 4001,
+          "checkUrl": "api"
+        }
+      ]
+    }
+  ]
+}

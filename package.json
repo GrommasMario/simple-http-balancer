@@ -1,0 +1,29 @@
+{
+  "name": "load-balancer",
+  "version": "0.0.1",
+  "description": "simple http balancer",
+  "author": "Ivan Fomenko",
+  "scripts": {
+    "start:dev": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "@yandex-cloud/nodejs-sdk": "^2.1.1",
+    "http-proxy": "^1.18.1",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.9",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2",
+    "source-map-support": "^0.5.20",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "4.0.0",
+    "typescript": "^4.3.5"
+  }
+}
